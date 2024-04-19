@@ -77,7 +77,7 @@ public class Vino implements EsAlimento, EsLiquido, ConDescuento{
     //ConDescuento
     public void setDescuento(double descuento) {
         this.descuento = descuento;
-        precioDescuento = precio - descuento;
+        precioDescuento = precio - precio*descuento/100;
     }
     public double getDescuento() {
         return descuento;
