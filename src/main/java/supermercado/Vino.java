@@ -86,5 +86,19 @@ public class Vino implements EsAlimento, EsLiquido, ConDescuento{
         return precioDescuento;
     }
 
-
+    @Override
+    public String toString() {
+        return "Vino{" +
+                "marca='" + marca + '\'' +
+                ", tipoDeVino='" + tipoDeVino + '\'' +
+                ", grados=" + grados +
+                ", precio=" + precio +
+                ", descuento=" + descuento +
+                ", precioDescuento=" + precioDescuento +
+                ", calorias=" + calorias +
+                ", fechaCaducidad=" + fechaCaducidad +
+                ", volumen=" + volumen +
+                ", tipoEnvase='" + tipoEnvase + '\'' +
+                '}';
+    }
 }

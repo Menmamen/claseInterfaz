@@ -53,7 +53,12 @@ public class Cereales implements EsAlimento{
 
     @Override
     public String toString() {
-        return  "marca:" + marca + ", precio:" + precio +", tipoCereal:" + tipoCereal +
-                ", fechaCaducidad:" + fechaCaducidad + ", calorias:" + calorias;
+        return "Cereales{" +
+                "marca='" + marca + '\'' +
+                ", precio=" + precio +
+                ", tipoCereal='" + tipoCereal + '\'' +
+                ", fechaCaducidad=" + fechaCaducidad +
+                ", calorias=" + calorias +
+                '}';
     }
 }
